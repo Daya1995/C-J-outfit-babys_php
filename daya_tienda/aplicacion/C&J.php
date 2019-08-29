@@ -20,6 +20,7 @@
       <div id="marca">
         <h1> <span class="resaltado"> C & J </span> outifit babys</h1>
       </div>
+    </di>
       <nav>
         <ul>
           <li class="actial">INICIO</li>
