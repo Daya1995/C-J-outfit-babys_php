@@ -1,0 +1,89 @@
+body {
+    font: 15px arial, helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* estilos globales */
+
+.contedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.boton1 {
+    height: 38px;
+    background-color: #F39C12;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+}
+
+/* en cabezado */
+header {
+    background-color: #F6A1F5;
+    color: #ffff;
+    padding: 50px;
+    min-height: 70px;
+    border-bottom: 5px solid #FFEE58;
+}
+
+header a {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px
+}
+
+header #marca {
+    float: left;
+}
+
+header #marca h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .resaltado,
+header.actual a {
+    font-weight: bold;
+    color: #AFF9F0;
+}
+
+header a:hover {
+    font-weight: bold;
+    color: #CCC;
+}
+
+#caja {
+    background: red;
+    margin: auto;
+    padding: 54px;
+}
+
+/* EL PIE DE PAGINA */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #F6A1F5;
+    text-align: center;
+}
